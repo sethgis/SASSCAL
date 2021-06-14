@@ -1,0 +1,646 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="Y" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>WETLAND MONITORING AND ASSESSMENT SERVICE &mdash; WETLAND MONITORING AND ASSESSMENT SERVICE (WeMAST) 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  <link rel="stylesheet" href="https://example.com/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="_static/print.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: light blue" >
+          
+
+          
+            <a href="#" class="icon icon-home"> WETLAND MONITORING AND ASSESSMENT SERVICE (WeMAST)
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">WETLAND MONITORING AND ASSESSMENT SERVICE</a></li>
+<li><a class="reference internal" href="#system-documentation">SYSTEM DOCUMENTATION</a><ul>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#general-information">General Information</a><ul>
+<li><a class="reference internal" href="#contanct-the-team">Contanct the team</a></li>
+<li><a class="reference internal" href="#acknowledgement">Acknowledgement</a></li>
+<li><a class="reference internal" href="#lincenses">Lincenses</a></li>
+<li><a class="reference internal" href="#terms-of-use">Terms of Use</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#background">Background</a><ul>
+<li><a class="reference internal" href="#objective-of-the-assignment">Objective of the Assignment</a></li>
+<li><a class="reference internal" href="#data-source">.Data Source</a></li>
+<li><a class="reference internal" href="#data-preparation">Data Preparation</a></li>
+<li><a class="reference internal" href="#data-uploading">Data Uploading</a></li>
+<li><a class="reference internal" href="#data-downloading">Data Downloading</a></li>
+<li><a class="reference internal" href="#system-scope">System Scope</a></li>
+<li><a class="reference internal" href="#system-overview">System Overview</a><ul>
+<li><a class="reference internal" href="#wemast-system-overview">WeMAST System Overview</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#accessing-the-system">Accessing the System</a></li>
+<li><a class="reference internal" href="#selecting-the-area-of-interest-and-year">Selecting the Area of Interest and Year</a></li>
+<li><a class="reference internal" href="#selecting-the-data-sources">Selecting the Data Sources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#wemast-system-outputs">WeMAST System Outputs</a><ul>
+<li><a class="reference internal" href="#exposure-indicators">Exposure Indicators</a></li>
+<li><a class="reference internal" href="#land-use-land-cover-lulc">Land Use Land Cover LULC</a></li>
+<li><a class="reference internal" href="#vegetation-phenometrics-ndvi">Vegetation Phenometrics - NDVI</a></li>
+<li><a class="reference internal" href="#water-extent">.Water Extent</a></li>
+<li><a class="reference internal" href="#wetland-status">Wetland Status</a></li>
+<li><a class="reference internal" href="#sensitivity-indicators">Sensitivity Indicators</a></li>
+<li><a class="reference internal" href="#water-quality">Water Quality</a></li>
+<li><a class="reference internal" href="#turdity-index">Turdity Index</a></li>
+<li><a class="reference internal" href="#nitrogen-content">Nitrogen Content</a></li>
+<li><a class="reference internal" href="#suspended-sediment-index">Suspended Sediment Index</a></li>
+<li><a class="reference internal" href="#soil-moisture-index">Soil Moisture Index</a></li>
+<li><a class="reference internal" href="#resilience-indicators">Resilience Indicators</a></li>
+<li><a class="reference internal" href="#burnt-area">Burnt Area</a></li>
+<li><a class="reference internal" href="#precipitation-index">Precipitation Index</a></li>
+<li><a class="reference internal" href="#flood-map">Flood Map</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">WETLAND MONITORING AND ASSESSMENT SERVICE (WeMAST)</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>WETLAND MONITORING AND ASSESSMENT SERVICE</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            
+              <a href="https://github.com///blob/index.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="wetland-monitoring-and-assessment-service">
+<h1>WETLAND MONITORING AND ASSESSMENT SERVICE<a class="headerlink" href="#wetland-monitoring-and-assessment-service" title="Permalink to this headline">¶</a></h1>
+<div class="align-centre figure align-left">
+<a class="reference internal image-reference" href="D:Wetland3.PNG"><img alt="WeMAST Data Source" src="D:Wetland3.PNG" style="width: 600px; height: 300px;" /></a>
+</div>
+</div>
+<div class="section" id="system-documentation">
+<h1>SYSTEM DOCUMENTATION<a class="headerlink" href="#system-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="section" id="indices-and-tables">
+<h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="general-information">
+<h1>General Information<a class="headerlink" href="#general-information" title="Permalink to this headline">¶</a></h1>
+<p>Wetland Monitoring and Assessment service is a geoportal applied in assessing andmonitoring
+Wetland and transboundary health overtime.The various sub indicators used are given a correlation
+that assesses the anthropogenic pressures and utilization of wetland resources overtime. The goal is towards
+achivement of sustainable use of wetland resources, while ensuring that the resources serves the all the
+players in need.</p>
+<div class="section" id="contanct-the-team">
+<h2>Contanct the team<a class="headerlink" href="#contanct-the-team" title="Permalink to this headline">¶</a></h2>
+<p>Please contact the <a class="reference external" href="https://www.sasscal.org/contact-us/">SASSCAL</a> team if in need of any bug reporting, ideas as well as contribution that will
+make the service better.</p>
+</div>
+<div class="section" id="acknowledgement">
+<h2>Acknowledgement<a class="headerlink" href="#acknowledgement" title="Permalink to this headline">¶</a></h2>
+<p>The feedback provided by users of WeMAST service and by the participants in the webinars and workshops
+held by SASSCAL org have been critical to the development of the Service.
+The team included a list of patnering institutions in patnership with the private sector, who were the implemeneters of the assignement.</p>
+</div>
+<div class="section" id="lincenses">
+<h2>Lincenses<a class="headerlink" href="#lincenses" title="Permalink to this headline">¶</a></h2>
+<p>WeMAST service is open and free to be used by the plethora of users. The lincense is under the GNU General Public User Linceses, version 2.0.0
+The <a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">WeMAST service product are made available under the Creative Commons Attribution 4.0 International Lincenses (CC YY 4.0)</a>.
+The names and boundary do not imply official endorsement or acceptance by the South African Development Community, comprosing of the four
+Transboundary Basins, i.e Cuvelai, Zambezi, Limpopo and Okavango.</p>
+</div>
+<div class="section" id="terms-of-use">
+<h2>Terms of Use<a class="headerlink" href="#terms-of-use" title="Permalink to this headline">¶</a></h2>
+<p>This system was designed for monitoring purposes, moreso the conditions Wetlands in the Southern Africa Development Community area.
+The information herein are for research and generation of insights. However, the system should not be used as a legally binding resource.
+The owners of this system, are not liable whatsoever for any information that might be incorrectly represented.
+The data source arae also acquired from a secondary source, and thus, the system o wners do not ha ve any resources in collecting first hand infomation.</p>
+</div>
+</div>
+<div class="section" id="background">
+<h1>Background<a class="headerlink" href="#background" title="Permalink to this headline">¶</a></h1>
+<p>Wetlands exist in complex ecological conditions that tends to transform with time and space in terms of functionality and structural diversity. Wetland ecosystems have an important role in maintaining biological diversity, they are also important for biochemical transformation, storage, production of living plants and animals and for decomposition of organic materials (USEPA, 2002; Clarkson et al., 2003). In recent past, wetlands have been subjected to a wide range of threats (Malekmohammadi and Jahanishakib, 2017) causing alterations from activities such as dredging and filling operations, hydrologic modifications, pollutant runoff, eutrophication, impoundment, and fragmentation by roads and ditches(Chatterjee et al., 2015) (Klemas, 2011). These activities cause disruption to the ecological balance of animal and biotic reservoirs in wetlands (Ramsar Convention Secretariat, 2004). Assessment of these threats is thus essential to developing an understanding of the state of a wetland ecosystem and to develop a suitable management strategy for eastern Africa region, hence wetland vulnerability assessment.
+Identification of wetland indicators aids in determining the status of specific wetland functions, changes in functions over time and allows comparison of functions between different wetlands. In additions, it helps in modelling the environmental system and trends occurring within a wetland ecosystem.</p>
+<p>It is estimated that 64% of the of the world’s wetlands have disappeared since 1900 with other areas like Asia, having much higher loss rate with the risk higher on inland wetlands, whereby they tend to disappear even much faster. The disappearance of wetlands has exposed the world to the increasing risk on accessibility to fresh water and food. The carbon estimates in atmosphere has had an upward surge over the years since the disappearing wetlands have acted as carbon sinks regulating air pollution.
+Wetland indicator aims at identifying the total surface of wetland area including the water bodies, wetland vegetation, wetland resources usage and rate.
+Various named indicators apply different methodologies in identifying their presumed extent.</p>
+<p>The use of technique based on the greenness and wetness indices assessing their transformation, using the supervised classification on detecting the land and overlaying vegetation associated to water, while the marshy vegetation is assessed through the use of seasonal image analysis based on the vegetation dynamics provided by the greenness and wetness indices.
+Besides the wetland indicators aiding in assessing the extent of the wetland, it is also applied in identifying the use and health condition of various wetlands, as different wetlands have different functions. Different types of wetlands are also privy to their hydrological, vegetation and soils conditions making them subject to varying environmental and geophysical conditions.</p>
+<p>In order to be profound with the derivation of the analysis, exploration and visualization of wetland earth observation datasets for monitoring purposes, vulnerability assessment of a given wetland plays a major role in identifying and analyzing the indicators to wetland vulnerability. The more than 50 wetland indicators are largely subdivided into three   major groups.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Exposure and socio-economic indicators.</p></li>
+<li><p>Sensitivity and biodiversity indicators.</p></li>
+<li><p>Resilience and control measures as reducing indicators.</p></li>
+</ul>
+</div></blockquote>
+<p>The aforementioned three major indicators of monitoring wetland vulnerability touches on the entire ecosystem and influences the nature and state of wetland incorporating both the natural and anthropogenic factors.
+Vulnerability of an environmental system is described as the tendency of an ecosystem to be damaged when exposed to a given form of pressure that could stress its ability to resist (resilience) or cope with the pressure. The vulnerability may apply to both physical, including ecosystems and coastlines all the way to abstract concepts, such as social system and social trends and behaviours which may affect the resilience of a given eco system.</p>
+<p>Thus The Resilience of an environmental system is described as the ability of an ecosystem to resist damage or recover from hazardous phenomenon.
+The exposure of a system of an ecosystem is described as the probability of disturbance or stress from hitting at a given ecosystem. As much as the adaptability of a given ecosystem may contribute to its resilience, the anthropogenic activities may promote occurrence of hazardous phenomenon. Thus an environmental system with exposed nature to hazard is said to be sensitive to hazard. Thus, sensitivity is the measure of susceptibility of hazard occurrence in a given ecosystem.</p>
+<p>In monitoring the conditions of wetland in the South African Development Community, The South Africa Science Service Centre for Climate Change and adaptive Land Management (SASSCAL), are the leading partners in implementation. SASSCAL have partnered with like-minded institutions and the private sector (the implementing consortium) in realizing the Wetland monitoring geoportal development.</p>
+<p>The geoportal is envisioned to applying and ingesting geospatial data, services and algorithms to provide insights and information that decision-making and management would be based on. The geoportal is likely to attract a plethora of users across the environmentalist, geoscientist, policy makers, river basin commissioners, water authorities, governmental departments, universities and research institutions among other users.</p>
+<p>As part of the main objective, the WeMAST project, through a professional collaboration with the private sector (consortium), designed and developed an integrated platform for wetland assessment and monitoring that will support sustainable management of selected transboundary river basin including;</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>The Zambezi Basin panning countries such as Zambia, Malawi, Tanzania, Zaire and Angola.</p></li>
+<li><p>The Cuvelai Basin in Namibia and Angola.</p></li>
+<li><p>The Okavango Basin in Botswana, Angola and Namibia.</p></li>
+<li><p>The Limpopo Basin in South Africa, Botswana and Mozambique.</p></li>
+</ul>
+</div></blockquote>
+<hr class="docutils" />
+<div class="section" id="objective-of-the-assignment">
+<h2>Objective of the Assignment<a class="headerlink" href="#objective-of-the-assignment" title="Permalink to this headline">¶</a></h2>
+<p>The geoportal is a one stop shop in acquiring information pertaining to wetland conditions, wetland resource utilization, impact of management policies, the health of the wetland and other contemporary information such as water abstraction, connectivity and flow to the population in need.
+The geoportal is also a vital tool in assessing the land use and land cover around the wetland, while providing a proxy information of the sustainable use of the water and biodiversity resources.</p>
+<p>This was achieved through an agile design of a functional ubiquous geoportal system that takes in multi temporal Earth Observation data processing for the service area (The four River Basin) to support initiatives for sustainable wetland management in the selected regions of interest. The ultimate goal being the support of policy intervention at both regional and national levels for wetland degradation mitigation.
+The information and geospatial intelligence therein is useful to a list of end users and policy makers such as</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>River Bain commissioners</p></li>
+<li><p>Water authorities</p></li>
+<li><p>Conservation authorities</p></li>
+<li><p>Government departments</p></li>
+<li><p>Research institutions</p></li>
+<li><p>Local authorities and</p></li>
+<li><p>Local communities among others.</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="data-source">
+<h2>.Data Source<a class="headerlink" href="#data-source" title="Permalink to this headline">¶</a></h2>
+<p>WeMAST Monitoring adn Assessment service is developed in adherance to Open Geospatial Consortium (OGC) standards. The data sources are
+standadized and acquired from open source, that can be accessible by interested players in Wetland Management and Assessment.
+The data sources covers the various sub indicators. The sub indicators are largely sub divided into major indicators.
+The major indicators are highlighted below.</p>
+<blockquote>
+<div><p><strong>i.Sensitivity sub indicators</strong>: Sensitivity is described as the degree to which a wetland is affected,
+either adversely or beneficially, by climate-related stimuli,
+including the following elements of climate change: mean climate characteristics and climate variability (Ramsar Framework).</p>
+<p><strong>ii.The exposure sub indicators</strong>: Exposure is described as the probability of an ecosystem to be affected by adverse
+conditions and hazards, as a results of historical mismanagement or conditions that led to reduction in resilience.</p>
+<p><strong>iii.Resilience sub indicators</strong>: Resilience of an ecosystem is described as the ability to cope against experienced hazards.</p>
+</div></blockquote>
+<p>The above categirized indicators, had root sub indicators that were defined in ache category. These sub indicators are then used in modelling
+the Wetland and Transboundary basin conditions and health. The various sub indicators are listed below.</p>
+<div class="right figure align-left" id="id3">
+<a class="reference internal image-reference" href="D:DataSource2.PNG"><img alt="WeMAST Data Source" src="D:DataSource2.PNG" style="width: 650px; height: 500px;" /></a>
+<p class="caption"><span class="caption-text">Table 1: WeMAST Data Sources</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="data-preparation">
+<h2>Data Preparation<a class="headerlink" href="#data-preparation" title="Permalink to this headline">¶</a></h2>
+<p>Monitoring and assessing the wetland and basin conditions, extents and trends require data preparation and computation integrity.
+This depends on the use of desired data sets, prepared and visualized in a format that is easily interpreted. The outputs generated depends on the input data, thus, it is vital to input a well-preprocessed data in order to visualize a favorable output.</p>
+<p>This report is therefore intended to provide a guide to the data preparation and outline the processing chains requirements and visualization procedures.
+Wetland monitoring and assessment is dependent on the satellite imagery products termed as sub indicators that are computed from the combination of specific multi-spectral bands. The desired band combination is used in computations to produce the desired output. The desired products are then uploaded into the WeMAST GeoServer, whereby they are made accessible to the client upon request, in form of Geovisualised maps, charts, time series data, statistics as well as tabulated Metadata.</p>
+<p>Few in-situ computations are however applied in the backend system to generate real time monitoring and assessment results such as burnt areas, flooded zoned areas, vegetation cover and land use land cover change maps based on the availability and temporal frequency of the datasets.
+The WeMAST geoportal system is envisioned to provide a monitoring and assessment baseline information for the 4 major basins together with the existing wetland areas within the sub basins. The basins are the Zambezi, Cuvelai, Limpopo and Okavango.</p>
+<p>The sub - indicators applied in monitoring wetland and basin conditions are largely categorized into three, in order to capture the sustainable use of the basin resources while assessing their sensitivity, exposure as well as resilience on their continuous use.
+The sub indicators that are used to study the above conditions are listed below, with their procedures discussed in the
+<a class="reference external" href="https://drive.google.com/file/d/1yDdZSvnr14I5uU0nMDh77FSQfpqN5N50/view?usp=sharing/">Data Preparation Manual</a>.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Land Use Land cover</p></li>
+<li><p>Vegetation Phenometrics</p></li>
+<li><p>Water Extent</p></li>
+<li><p>Wetland Inventory</p></li>
+<li><p>Water Quality Indicators</p></li>
+<li><p>Flood Mapping</p></li>
+</ul>
+</div></blockquote>
+<p>Each of these sub indicators have been uniquely prepared in order to give the desired outputs as is visualized for the WeMAST Geoportal.
+Please refer <a class="reference external" href="https://drive.google.com/file/d/1yDdZSvnr14I5uU0nMDh77FSQfpqN5N50/view?usp=sharing/">HERE</a>. for data preparation and computation algorithms.</p>
+</div>
+<div class="section" id="data-uploading">
+<h2>Data Uploading<a class="headerlink" href="#data-uploading" title="Permalink to this headline">¶</a></h2>
+<p>Generally, after acquisition and the subsequent steps of data preparation, the next step is to appload the document to the database.
+In our case, this prividledge belong to the system administrators, who have the role of preparing data as soon as they are available, and later uploading the same to the system</p>
+</div>
+<div class="section" id="data-downloading">
+<h2>Data Downloading<a class="headerlink" href="#data-downloading" title="Permalink to this headline">¶</a></h2>
+<p>Since we have users who are interested in analysis and undestanding the data that is used to develop and generate the various outputs, the linkage to the backenmd is therefore provided for in the system.
+The users can access the data in the backend using the available QGIS plugin or download the raw file as showcased in the system.
+This will allow for the user to do further analysis if need be. See the steps below.</p>
+</div>
+<div class="section" id="system-scope">
+<h2>System Scope<a class="headerlink" href="#system-scope" title="Permalink to this headline">¶</a></h2>
+<p>The system is capable of analysing data from 2 perspective, at a basin level as well at a wetland level.
+The user can also assess their region of interest through drawing a polygon on the front end of the system.
+The defined areas of interest call data and are visualised in the front end, together with the statistics
+coinciding with areas selected.</p>
+</div>
+<div class="section" id="system-overview">
+<h2>System Overview<a class="headerlink" href="#system-overview" title="Permalink to this headline">¶</a></h2>
+<div class="right figure align-left" id="id4">
+<a class="reference internal image-reference" href="D:SysOverview222.PNG"><img alt="WeMAST Data Source" src="D:SysOverview222.PNG" style="width: 600px; height: 300px;" /></a>
+<p class="caption"><span class="caption-text">Figure 2: System Overview</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<div class="legend">
+<blockquote>
+<div><ul class="simple">
+<li><p>1: The statics collapsible panel that carries the charts and the excel files, as well as the button showcasing the metadata section.</p></li>
+<li><p>2: The user authentication panel containing of the registration panel, home button as well as the help button leading to the various system documentation.</p></li>
+<li><p>3: The map and dashboard view panel:  Houses the Geovisualised sub-indicator together with the respective map components such as the scale bar. A screenshot of this layer outputs a standard map containing the various map components.</p></li>
+<li><p>4: The advanced filter buttons as well as the compare tool for various sub layers.</p></li>
+<li><p>5: Other functional buttons including the opacity tool, download button, measure distance and area, drawing polygon tool and zoom in and out tool.</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="right figure align-left" id="id5">
+<a class="reference internal image-reference" href="D:Metadata.PNG"><img alt="WeMAST Data Source" src="D:Metadata.PNG" style="width: 600px; height: 300px;" /></a>
+<p class="caption"><span class="caption-text">Figure 2: System Metadata</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<div class="section" id="wemast-system-overview">
+<h3>WeMAST System Overview<a class="headerlink" href="#wemast-system-overview" title="Permalink to this headline">¶</a></h3>
+<p>WeMAST system is designed to visualize the sub-indicators and allow for on-fly computation.
+The computation is designed to output the statistics as well as time series charts and graph of the specific sub indicators.
+The specific sub indicators computation are computed as is outlined in the next sub sections.</p>
+</div>
+</div>
+<div class="section" id="accessing-the-system">
+<h2>Accessing the System<a class="headerlink" href="#accessing-the-system" title="Permalink to this headline">¶</a></h2>
+<p>The system can be accessed through <a class="reference external" href="https://wemast.geoimagesolutions.com/#/dashboard/">this link.</a>.
+By clicking on the dashboard, the user is redirected to the map and dashboard view, where they can querry the systm for datasets,
+and recieve with inclusion of the statistics and meta data.</p>
+</div>
+<div class="section" id="selecting-the-area-of-interest-and-year">
+<h2>Selecting the Area of Interest and Year<a class="headerlink" href="#selecting-the-area-of-interest-and-year" title="Permalink to this headline">¶</a></h2>
+<p>To select the areas of interest the user can navigate as is shown in the steps below.
+The system allows for three modes of defining areas of interest, including.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Basin Level</p></li>
+</ul>
+</div></blockquote>
+<div class="right figure align-left" id="id6">
+<a class="reference internal image-reference" href="D:ACCBASIN.PNG"><img alt="WeMAST Data Source" src="D:ACCBASIN.PNG" style="width: 600px; height: 300px;" /></a>
+<p class="caption"><span class="caption-text">Figure 2: Accessing Basin AOI</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<div class="legend">
+<blockquote>
+<div><ul class="simple">
+<li><p>Wetland Level</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="right figure align-left" id="id7">
+<a class="reference internal image-reference" href="D:WETLAND.PNG"><img alt="WeMAST Data Source" src="D:WETLAND.PNG" style="width: 600px; height: 300px;" /></a>
+<p class="caption"><span class="caption-text">Figure 2: Accessing Wetland AOI</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<div class="legend">
+<blockquote>
+<div><ul class="simple">
+<li><p>Yeartime</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="right figure align-left" id="id8">
+<a class="reference internal image-reference" href="D:YEAR.PNG"><img alt="WeMAST Data Source" src="D:YEAR.PNG" style="width: 600px; height: 300px;" /></a>
+<p class="caption"><span class="caption-text">Figure 2: Accessing Year</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<div class="legend">
+<blockquote>
+<div><ul class="simple">
+<li><p>Statistics and Meta data</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="right figure align-left" id="id9">
+<a class="reference internal image-reference" href="D:Metadata.PNG"><img alt="WeMAST Data Source" src="D:Metadata.PNG" style="width: 600px; height: 300px;" /></a>
+<p class="caption"><span class="caption-text">Figure 2: Accessing Meta data</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="selecting-the-data-sources">
+<h2>Selecting the Data Sources<a class="headerlink" href="#selecting-the-data-sources" title="Permalink to this headline">¶</a></h2>
+<div class="right figure align-left" id="id10">
+<a class="reference internal image-reference" href="D:INDICATORR.PNG"><img alt="WeMAST Data Source" src="D:INDICATORR.PNG" style="width: 600px; height: 300px;" /></a>
+<p class="caption"><span class="caption-text">Figure 2: Accessing Data Source</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</div>
+<div class="right figure align-left" id="id11">
+<a class="reference internal image-reference" href="D:SUBINDICATOR.PNG"><img alt="WeMAST Data Source" src="D:SUBINDICATOR.PNG" style="width: 600px; height: 300px;" /></a>
+<p class="caption"><span class="caption-text">Figure 2: Accessing sub indicator data Source</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="wemast-system-outputs">
+<h1>WeMAST System Outputs<a class="headerlink" href="#wemast-system-outputs" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="exposure-indicators">
+<h2>Exposure Indicators<a class="headerlink" href="#exposure-indicators" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="land-use-land-cover-lulc">
+<h2>Land Use Land Cover LULC<a class="headerlink" href="#land-use-land-cover-lulc" title="Permalink to this headline">¶</a></h2>
+<p>The LULC is an ESA product.
+The integration of the biophysical and human factors plays a leading role in causing land cover
+changes, and is used to explain the dynamics of land usage and trend that occur within an ecosystem.
+The analysis of LULC data set overtime, is capable of visualising trends of human actions and impacts on the
+Wetland and basin resources in relation to the vulnerable population. To compute the LULC land cover, the following steps are applied in the system.</p>
+<div class="right figure align-left" id="id12">
+<a class="reference internal image-reference" href="D:LULC.PNG"><img alt="WeMAST Data Source" src="D:LULC.PNG" style="width: 650px; height: 325px;" /></a>
+<p class="caption"><span class="caption-text">Figure 2: Land Use Land Cover</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="vegetation-phenometrics-ndvi">
+<h2>Vegetation Phenometrics - NDVI<a class="headerlink" href="#vegetation-phenometrics-ndvi" title="Permalink to this headline">¶</a></h2>
+<p>Product derived from indexing the Near Infrared (NIR) band and the Red band from satellite image.
+Used to assess the difference in seasonal vegetation characteristics,
+concerning the phenology of the vegetation greenness and productivity overtime.
+See the <a class="reference external" href="https://drive.google.com/file/d/1yDdZSvnr14I5uU0nMDh77FSQfpqN5N50/view?usp=sharing/">Data Preparation Manual</a>.</p>
+<div class="right figure align-left" id="id13">
+<a class="reference internal image-reference" href="D:NDVI.PNG"><img alt="WeMAST Data Source" src="D:NDVI.PNG" style="width: 600px; height: 300px;" /></a>
+<p class="caption"><span class="caption-text">Figure 5: Vegetation Cover</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="water-extent">
+<h2>.Water Extent<a class="headerlink" href="#water-extent" title="Permalink to this headline">¶</a></h2>
+<p>Water extent is assessed through the use of Normalised Difference Water Index (NDWI).
+NDWI is a satellite-derived product, achieved after indexing SWIR and NIR bands of a satellite image. It captures the in season pure water pixels. The reduction of water areas correlates to low water quality, while the reverse correlates to increased precipitation and relatively reduced affluent deposition in water areas.</p>
+<div class="right figure align-left" id="id14">
+<a class="reference internal image-reference" href="D:WATEREXTENT.PNG"><img alt="WeMAST Data Source" src="D:WATEREXTENT.PNG" style="width: 600px; height: 300px;" /></a>
+<p class="caption"><span class="caption-text">Figure 5: Wetland Extent Data</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="wetland-status">
+<h2>Wetland Status<a class="headerlink" href="#wetland-status" title="Permalink to this headline">¶</a></h2>
+<p>Wetland Status is a product generated by proxy dataset (NDVI), it is achieved through the reclassification of the
+NDVI value to achieve a specified output. The specified output is termed as the Water and Wetness Probability Index (WWPI).
+displaying the dry, wet or water covered areas. The wet areas show places with high soil moisture content, while the dry areas are places susceptible to drought and may have little or no vegetation cover. The water areas are the open known wetlands and open surface water areas such as lakes.</p>
+<p>Generation of wetness and water product will require a more robust analysis of in-season monitoring and field datasets, which may be difficult to come by.
+The complex process based method of producing the Wetness and Water product led to the production of an expert product known as the Water and Wetness Probability Index (WWPI). The WWPI categorises the areas into water, wetness and dry areas. The wetness areas are places with high soil moisture content per season, while the dry areas are places susceptible to drought and have little or no vegetation cover.
+The water areas are the open known wetlands and open surface water areas such as lakes.</p>
+<div class="right figure align-left" id="id15">
+<a class="reference internal image-reference" href="D:WETLANDSTATUS.PNG"><img alt="WeMAST Data Source" src="D:WETLANDSTATUS.PNG" style="width: 600px; height: 300px;" /></a>
+<p class="caption"><span class="caption-text">Figure 5: Wetland Status Data</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="sensitivity-indicators">
+<h2>Sensitivity Indicators<a class="headerlink" href="#sensitivity-indicators" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="water-quality">
+<h2>Water Quality<a class="headerlink" href="#water-quality" title="Permalink to this headline">¶</a></h2>
+<p>The condition of water in relation to its physical and chemical component (water quality) is assessed with Normalised Difference Turbidity Index (NDTI), Normalised Difference Suspended Sediment Index (NSSDI) and Green Normalised Difference Vegetation Index (GNDVI).
+Water Quality also assesses and monitors the amount of dissolved chemical components and suspended matter in water.
+The high values shows the presence of dissolved chemical components in water, a sign of pollution, runoff as well as over usage or unsustainable usage of water resources surrounding an ecosystem</p>
+</div>
+<div class="section" id="turdity-index">
+<h2>Turdity Index<a class="headerlink" href="#turdity-index" title="Permalink to this headline">¶</a></h2>
+<p>NDTI is a satellite-derived product, achieved after indexing Red and Green bands of satellite image.
+It Assesses the water clarity change overtime caused by undissolved particles.
+The high turbidity levels indicate the high presence of undissolved matter mixed in water.</p>
+</div>
+<div class="section" id="nitrogen-content">
+<h2>Nitrogen Content<a class="headerlink" href="#nitrogen-content" title="Permalink to this headline">¶</a></h2>
+<p>Nitrogen content is assessed through the use Green Normalised Difference Vegetation Index (GNDVI), GNDVI – is a satellite-derived product, achieved after indexing Green and NIR bands of a satellite image.
+Monitors the amount of greenery (chlorophyll) in water, it is also tidally related to the amount of nitrogen content in water.
+The higher the values, the stronger the evidence of affluent and chemical deposition (Nitrogen).</p>
+</div>
+<div class="section" id="suspended-sediment-index">
+<h2>Suspended Sediment Index<a class="headerlink" href="#suspended-sediment-index" title="Permalink to this headline">¶</a></h2>
+<p>NDTI is a satellite-derived product, achieved after indexing Blue and NIR bands of satellite image.
+Monitors the availability of suspended undissolved sediments caused by either run off silt in water or continuous inorganic affluence deposition into water areas.
+A high value indicating the presence of affluence deposition into the water bodies.</p>
+</div>
+<div class="section" id="soil-moisture-index">
+<h2>Soil Moisture Index<a class="headerlink" href="#soil-moisture-index" title="Permalink to this headline">¶</a></h2>
+<p>Is the proportion of the difference between current soil moisture, the permanent wilting point and the residual soil moisture.
+High soil moisture content supports agricultural practices, while the very low values shows areas with susceptible severe drought conditions.</p>
+</div>
+<div class="section" id="resilience-indicators">
+<h2>Resilience Indicators<a class="headerlink" href="#resilience-indicators" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="burnt-area">
+<h2>Burnt Area<a class="headerlink" href="#burnt-area" title="Permalink to this headline">¶</a></h2>
+<p>Burnt area is assessed through the application of Normalised Burnt Ration Index, acquired from MODIS dataset.
+NBR is acquired from indexingg the short wave infrared and the near infrared bands as highlighted in the
+<a class="reference external" href="https://drive.google.com/file/d/1yDdZSvnr14I5uU0nMDh77FSQfpqN5N50/view?usp=sharing/">Data Preparation Manual</a>.
+The WeMAST system is capable of providig near real time assessment and monitoring of burnt regions in terms of coverage and location using a live python script using sentinel 2 image.
+The classification of the output of the above equation displays the various burnt severity as well as the fire intensity. Fire intensity represents the energy that is released from organic matter during the combustion process while the Burn severity is described as the degree to which an area has been altered or disrupted by the fire.
+The burnt areas with high severity highlights fire risk with high intensity with the reverse being true.</p>
+</div>
+<div class="section" id="precipitation-index">
+<h2>Precipitation Index<a class="headerlink" href="#precipitation-index" title="Permalink to this headline">¶</a></h2>
+<p>Precipitation index is assessed through the applicatipn of Standadized Precipitation Index (SPI), which is the measure of standard deviation of the received rainfall from the long term observed rainfall.
+It is used to characterize the meteorological drought, agricultural productivity and hydrological impacts on a range of timescale, which is also correlated to soil moisture.
+With High values showing extreme wet condition caused by precipitation, and low values shows extreme dry areas, susceptible to drought.</p>
+<p>SPI is used in basic drought monitoring when the values span between 1 and 3 months, values for 6 months or less are for monitoring agricultural impacts, and values comprising of 12 months or longer are for monitoring hydrological impacts.
+9 months SPI values are used in inter-seasonal precipitation patterns over a medium timescale duration, while beyond 12 months SPI values displays a long terms precipitation pattern of a particular area.</p>
+</div>
+<div class="section" id="flood-map">
+<h2>Flood Map<a class="headerlink" href="#flood-map" title="Permalink to this headline">¶</a></h2>
+<p>Flood mapping is computed through the analysis of the Topographical Wetness Index (TWI).
+The Index categorises the areas that are susceptible to flooding (severe) to the areas that are less susceptible to flooding (less sensitive).
+Since the data used i.e. SRTM (DEM) does not change frequently, the output is a static output until an updated data is realised.
+TWI is a useful model to estimate where water accumulates in an area. It is a function of slope and the upstream contributing area. TWI is also used to correlate to other variables such as the availability of ground water and specific plant species in an area among others. For instance, the presence of marshy vegetated areas can be found where there is high level of undulation, and mostly found in open wetland areas and stagnant waters.
+Depending on the rainfall or flooding intensity, the susceptibility to flooding increases with decreasing distance between the major undulating areas such as river flow, stream, open water source such as lakes and the elevated areas.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, LocateIT Limited.
+      <span class="lastupdated">
+        Last updated on True.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXXXX-1', 'auto');
+    
+    ga('set', 'anonymizeIp', true);
+    
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>
